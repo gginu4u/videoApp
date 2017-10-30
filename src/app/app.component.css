@@ -1,0 +1,27 @@
+.main{
+	margin-left:30px;
+	margin-right:30px;
+}
+.flex-container {   
+	-webkit-display:flex;/*safari*/
+	display:flex;
+	-webkit-flex-wrap: wrap; /* Safari */
+	flex-wrap: wrap;
+	
+}
+.flex-item {	
+padding-right:30px;
+}
+
+.flex-item h2{
+	color:white;
+	text-align:left;
+	font-size:24px;
+	margin-top:24px;
+	margin-bottom:90px;
+	width:150px;	
+}
+
+.input-group{
+	padding:30px 42px 34px 3px;	
+}
