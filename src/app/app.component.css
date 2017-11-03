@@ -1,6 +1,7 @@
 .main{
 	margin-left:30px;
 	margin-right:30px;
+
 }
 .flex-container {   
 	-webkit-display:flex;/*safari*/
@@ -11,6 +12,7 @@
 }
 .flex-item {	
 padding-right:30px;
+flex-grow:1;
 }
 
 .flex-item h2{
@@ -23,5 +25,14 @@ padding-right:30px;
 }
 
 .input-group{
-	padding:30px 42px 34px 3px;	
+	padding:30px 35px 34px 3px;	
+	
+}
+.form-control{
+	color: white;
+	background-color:black;	
+}
+img {
+	width:auto;
+	height:auto;
 }

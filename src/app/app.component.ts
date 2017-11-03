@@ -80,4 +80,9 @@ filterList(): void {
 
 }
 }
+
+clearSearch() : void {
+	this.filterText = '';
+	this.ngOnInit();
+}
 }
